@@ -543,3 +543,215 @@ Sprint **(Feb 26 - Mar 10)** 🏃‍♂️
 
 ---
 
+# **🔍 Search in Jira & Its Types**  
+
+Jira provides powerful search options to find issues, tasks, and bugs easily. There are two main types of search:  
+
+---
+
+## **1️⃣ Basic Search (Simple & User-Friendly)**
+- **Best for Beginners** ✅  
+- Uses **dropdown filters** to search for issues without writing queries.  
+- You can filter by:  
+  - **Project** (e.g., "E-commerce App")  
+  - **Issue Type** (Story, Task, Bug, etc.)  
+  - **Status** (To Do, In Progress, Done)  
+  - **Assignee** (Who is working on it?)  
+  - **Priority** (High, Medium, Low)  
+  - **Labels & Components**  
+
+✅ **Example:**  
+👉 You want to find all **open bugs** in "Mobile App Project".  
+- Go to Jira → Issues → Search  
+- Select **Project = Mobile App Project**  
+- Select **Issue Type = Bug**  
+- Select **Status = Open**  
+- ✅ See the list of open bugs!  
+
+---
+
+## **2️⃣ Advanced Search (JQL - Jira Query Language)**
+- **Best for Advanced Users & Complex Queries** 🚀  
+- Uses **JQL (Jira Query Language)** to find issues with custom conditions.  
+- **More powerful than Basic Search** because you can use logical conditions like `AND`, `OR`, `ORDER BY`, etc.  
+
+✅ **Example Queries:**  
+1️⃣ **Find all open bugs in a project:**  
+```jql
+project = "Mobile App" AND issuetype = Bug AND status = Open
+```
+2️⃣ **Find all tasks assigned to "John" that are high priority:**  
+```jql
+assignee = John AND priority = High AND status != Done
+```
+3️⃣ **Find all issues updated in the last 7 days:**  
+```jql
+updated >= -7d
+```
+
+---
+
+## **3️⃣ Quick Search (Fast & Easy)**
+- **Best for finding a specific issue quickly** 🔍  
+- Located at the **top-right corner** in Jira.  
+- Just type an **issue key** (like `PROJ-123`), **summary**, or **assignee name** to find it instantly.  
+
+✅ **Example:**  
+- You type `Login Bug` in Quick Search → Jira shows related issues instantly!  
+
+---
+
+## **4️⃣ Saved & Filtered Search (For Repeated Searches)**
+- If you **frequently** search for specific issues, you can **save your search filters**.  
+- This helps teams quickly check progress on bugs, sprints, etc.  
+- You can also **share filters** with your team.  
+
+✅ **Example:**  
+- You want to **track all unresolved bugs** daily.  
+- Create a search in JQL:  
+  ```jql
+  project = "E-commerce App" AND issuetype = Bug AND resolution = Unresolved
+  ```
+- Save the filter → Now, you can check it anytime with **one click!**  
+
+---
+
+## **📌 Summary of Search Types in Jira**
+| **Search Type** | **Best For** | **How It Works** |
+|----------------|-------------|------------------|
+| **Basic Search** | Beginners | Uses filters like Project, Status, Assignee |
+| **Advanced Search (JQL)** | Complex queries | Uses Jira Query Language (JQL) for custom searches |
+| **Quick Search** | Fast lookups | Search by issue key, assignee, or summary |
+| **Saved & Filtered Search** | Repeated searches | Save queries and use them anytime |
+
+---
+
+💡 **Tip:** If you're new to Jira, start with **Basic Search**. Once you're comfortable, try **JQL** for more advanced queries! 🚀
+
+---
+
+# **🔍 Advanced Search in Jira (JQL - Jira Query Language)**  
+
+JQL (Jira Query Language) is a powerful way to search and filter issues in Jira using structured queries. It allows for **custom, precise, and complex searches** that go beyond Basic Search.  
+
+---
+
+## **1️⃣ JQL Syntax Basics**
+A JQL query follows this structure:  
+```jql
+<field> <operator> <value>
+```
+✅ **Example:** Find all open bugs  
+```jql
+issuetype = Bug AND status = Open
+```
+
+### **Common Elements in JQL**  
+| **Element**  | **Examples** | **Description** |
+|-------------|-------------|----------------|
+| **Fields** | `project`, `status`, `priority`, `assignee` | Defines what you’re searching for |
+| **Operators** | `=`, `!=`, `>`, `<`, `IN`, `AND`, `OR` | Used to filter results |
+| **Values** | `"Mobile App"`, `Open`, `High` | The actual value you are searching for |
+| **Functions** | `now()`, `startOfWeek()`, `endOfMonth()` | Dynamic values |
+
+---
+
+## **2️⃣ Common JQL Queries**
+### **1. Find all open tasks in a project**
+```jql
+project = "E-commerce App" AND status != Done
+```
+
+### **2. Find all high-priority bugs assigned to a specific user**
+```jql
+issuetype = Bug AND priority = High AND assignee = "John Doe"
+```
+
+### **3. Find tasks updated in the last 7 days**
+```jql
+updated >= -7d
+```
+
+### **4. Find issues created this month**
+```jql
+created >= startOfMonth()
+```
+
+### **5. Find all issues assigned to me**
+```jql
+assignee = currentUser()
+```
+
+### **6. Find issues in multiple projects**
+```jql
+project IN ("App A", "App B") AND status = Open
+```
+
+### **7. Find all tasks that are not bugs**
+```jql
+issuetype != Bug
+```
+
+### **8. Find issues that are in progress or in review**
+```jql
+status IN ("In Progress", "In Review")
+```
+
+### **9. Find issues that are overdue (due date has passed)**
+```jql
+duedate < now()
+```
+
+### **10. Find issues that were completed last week**
+```jql
+status = Done AND resolved >= startOfWeek(-1) AND resolved <= endOfWeek(-1)
+```
+
+---
+
+## **3️⃣ Advanced JQL Operators**
+| **Operator** | **Meaning** | **Example** |
+|-------------|------------|-------------|
+| `=` | Equals | `status = "In Progress"` |
+| `!=` | Not Equals | `priority != Low` |
+| `>` | Greater Than | `created > "2024-01-01"` |
+| `<` | Less Than | `updated < -7d` |
+| `>=` | Greater Than or Equal | `priority >= High` |
+| `<=` | Less Than or Equal | `duedate <= now()` |
+| `IN` | Matches Any Value in a List | `status IN ("Open", "To Do")` |
+| `NOT IN` | Excludes Values from List | `status NOT IN ("Done", "Closed")` |
+| `IS` | Checks for Empty Fields | `resolution IS EMPTY` |
+| `ORDER BY` | Sorts Results | `ORDER BY created DESC` |
+
+---
+
+## **4️⃣ Using JQL for Agile Boards & Reports**
+- **Filter Sprint Issues:**  
+  ```jql
+  sprint = "Sprint 5"
+  ```
+- **Show Completed Tasks in Current Sprint:**  
+  ```jql
+  sprint IN openSprints() AND status = Done
+  ```
+- **Find Unassigned Tasks in the Backlog:**  
+  ```jql
+  project = "Website Redesign" AND assignee IS EMPTY AND status = "Backlog"
+  ```
+
+---
+
+## **🎯 Summary**
+| **Feature** | **Basic Search** | **JQL (Advanced Search)** |
+|------------|----------------|------------------|
+| **Best For** | Simple filters | Complex queries |
+| **Flexibility** | Limited | Highly flexible |
+| **Operators** | Dropdown selection | Use `=`, `IN`, `ORDER BY`, etc. |
+| **Examples** | Filter by project, status | Find all high-priority bugs assigned to John |
+
+---
+
+🚀 **Pro Tip:** Start with **Basic Search**, then explore **JQL** to create advanced reports, track progress, and improve workflow automation!
+
+---
+
