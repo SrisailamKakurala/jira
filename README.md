@@ -209,3 +209,288 @@ There are three main roles in Scrum:
 
 ---
 
+# **Scrum vs. Kanban – A Simple Comparison** 🏉📊  
+
+Scrum and Kanban are both Agile frameworks used for project management, but they have key differences.  
+
+| Feature        | **Scrum** 🏉 | **Kanban** 📊 |
+|--------------|------------|------------|
+| **Approach** | Iterative & structured | Continuous & flexible |
+| **Work Style** | Fixed Sprints (1-4 weeks) | Continuous flow |
+| **Team Roles** | Defined (Scrum Master, Product Owner, Developers) | No fixed roles (everyone manages workflow) |
+| **Meetings** | Regular (Daily Standup, Sprint Review, Retrospective) | Optional (only if needed) |
+| **Board Type** | Scrum Board (organized by sprints) | Kanban Board (tasks move freely) |
+| **Work Limit** | Sprint Backlog limits work in a sprint | WIP (Work In Progress) limits for each column |
+| **Planning** | Sprint Planning at the start | Continuous planning as needed |
+| **Best for** | Teams working in iterations | Teams with continuous workflow (support, maintenance) |
+| **Example Use Case** | Developing a new app feature | Managing customer support tickets |
+
+---
+
+## **1️⃣ Scrum Overview 🏉**
+✅ Work is done in fixed-length **Sprints** (1-4 weeks).  
+✅ Teams follow a **structured workflow** (Sprint Planning → Daily Standups → Sprint Review → Retrospective).  
+✅ Best for **software development teams** working on new features.  
+
+📌 **Example:** A mobile app team plans a 2-week sprint to develop a new login feature.  
+
+---
+
+## **2️⃣ Kanban Overview 📊**
+✅ Tasks flow continuously without fixed-length sprints.  
+✅ Uses **Work In Progress (WIP) Limits** to prevent overload.  
+✅ Best for **support teams or teams with ongoing work** (e.g., bug fixes, DevOps).  
+
+📌 **Example:** A customer support team handles tickets as they come in without sprint cycles.  
+
+---
+
+## **📌 When to Use Scrum vs. Kanban?**
+- **Use Scrum** if your work has **clear deadlines and structured phases**.  
+- **Use Kanban** if your work is **ongoing and requires flexibility**.  
+- **Use Scrumban** (a mix of both) for teams that want **structured sprints but continuous workflow**.  
+
+---
+
+Here's a real-world example to help you understand **Scrum vs. Kanban** better.  
+
+---
+
+### **📌 Real-World Example: Developing & Maintaining a Mobile App**  
+
+Imagine your team is working on a **mobile app**. You need to develop **new features** and also **fix bugs** as they arise.  
+
+#### **1️⃣ Scrum for New Feature Development 🏉**  
+🔹 Your team plans a **2-week Sprint** to add a **dark mode feature**.  
+🔹 The work is broken into **User Stories** (e.g., “Allow users to switch to dark mode”).  
+🔹 Every day, the team has a **Daily Standup** to discuss progress.  
+🔹 At the end of 2 weeks, the feature is reviewed, tested, and released.  
+🔹 The team holds a **Sprint Retrospective** to discuss improvements for the next sprint.  
+
+💡 **Why Scrum?** The work is structured, planned in advance, and delivered in fixed cycles.  
+
+---
+
+#### **2️⃣ Kanban for Bug Fixes & Maintenance 📊**  
+🔹 Bugs and issues are reported continuously by users.  
+🔹 The team places them on a **Kanban Board** under “To Do.”  
+🔹 They fix bugs one by one as per priority, moving tasks from **To Do → In Progress → Done**.  
+🔹 No sprint deadlines – work flows as needed.  
+🔹 If the team is overwhelmed, they reduce the **Work In Progress (WIP) limit** to stay focused.  
+
+💡 **Why Kanban?** Bugs and maintenance tasks arrive unpredictably, so a **flexible approach** works better.  
+
+---
+
+### **📌 When to Use Scrumban?**  
+🔹 Your team needs **structure for new features** (Scrum) but **flexibility for bug fixes** (Kanban).  
+🔹 You plan sprints but also handle **urgent tasks** without waiting for the next sprint.  
+
+🔥 **Example:**  
+- Use **Scrum** for adding a new "Chat Feature" in a Sprint.  
+- Use **Kanban** for handling **urgent security fixes** immediately.  
+
+
+---
+
+# **Sprint in Scrum – A Simple Guide 🚀**  
+
+A **Sprint** is a short, time-boxed period (usually **1-4 weeks**) where a team completes a set of tasks. It's a **core concept of Scrum** and helps teams deliver work **quickly and consistently**.  
+
+---
+
+## **📌 Sprint Workflow (Step-by-Step)**  
+
+1️⃣ **Sprint Planning** – Decide what tasks to work on in the sprint.  
+2️⃣ **Daily Standups** – Short daily meetings to discuss progress.  
+3️⃣ **Work Execution** – Team works on tasks from the Sprint Backlog.  
+4️⃣ **Sprint Review** – At the end, the team showcases the completed work.  
+5️⃣ **Sprint Retrospective** – Discuss what went well and what can be improved.  
+6️⃣ **Next Sprint Starts** – The cycle repeats with a new Sprint.  
+
+---
+
+## **📌 Key Sprint Terms**  
+
+- **Sprint Backlog** – List of tasks to complete in a Sprint.  
+- **Sprint Goal** – The main objective of the Sprint.  
+- **Time-boxed** – Fixed duration (e.g., 2 weeks).  
+- **Increment** – The final product or feature delivered.  
+- **Burn-down Chart** – A graph showing remaining work vs. time.  
+
+---
+
+## **📌 Example: Mobile App Sprint** 📱  
+
+🔹 **Sprint Goal** – Add a "Dark Mode" feature.  
+🔹 **Sprint Backlog** –  
+   - Design dark mode UI  
+   - Implement toggle button  
+   - Test across devices  
+   - Fix reported issues  
+
+🔹 **Daily Standups** – Team checks progress every morning.  
+🔹 **Sprint Review** – Show the working "Dark Mode" feature.  
+🔹 **Sprint Retrospective** – Discuss what went well & improve for next Sprint.  
+
+💡 **Sprints ensure fast, focused, and frequent software releases!**  
+
+---
+
+# **Epic & Roadmap/Timeline – A Simple Guide 🚀**  
+
+## **📌 What is an Epic?**  
+An **Epic** is a **big feature or project** that is too large to complete in one sprint. It is broken down into **smaller user stories** and tasks.  
+
+### **Example:**  
+📱 **Epic:** "Build a Chat Feature for a Mobile App"  
+🔹 **Story 1:** "Design the chat UI"  
+🔹 **Story 2:** "Implement real-time messaging"  
+🔹 **Story 3:** "Add push notifications"  
+
+👉 **Epics help teams manage large projects by breaking them into smaller, manageable parts.**  
+
+---
+
+## **📌 What is a Roadmap/Timeline?**  
+A **Roadmap** (or **Timeline**) is a **visual plan** that shows when different epics, stories, and tasks will be completed.  
+
+### **Example of a Roadmap (3 Months Plan) 🗓️**  
+
+| Month | Epic | Tasks |
+|--------|------|-------|
+| **March** | "User Authentication" | Login, Signup, Google OAuth |
+| **April** | "Chat Feature" | UI, Real-time Messaging, Notifications |
+| **May** | "Dark Mode & Performance Improvements" | Dark UI, Speed Optimization |
+
+👉 **A roadmap helps teams track progress and align work with business goals.**  
+
+---
+
+# **Story vs. Task vs. Issue vs. Bug – A Simple Guide 🚀**  
+
+In **Jira** and project management, these terms help categorize different types of work. Let’s break them down with **examples** so you can understand them easily.  
+
+---
+
+## **📌 1. Story (User Story) – A Feature Request**  
+A **Story** describes a feature from the user’s perspective. It answers: **"What does the user need?"**  
+
+✅ **Example:**  
+- 🛒 "As a user, I want to add items to my cart so I can purchase them later."  
+- 🔹 Stories are usually part of a bigger **Epic** (e.g., "Build an E-commerce Website").  
+- 🔹 Stories are broken into **Tasks**.  
+
+---
+
+## **📌 2. Task – A Piece of Work to Do**  
+A **Task** is an action item that must be completed. It is **smaller than a Story** and is assigned to a team member.  
+
+✅ **Example:**  
+- 🎨 "Design the cart UI."  
+- 🖥️ "Develop the cart functionality."  
+- ✅ "Write test cases for the cart feature."  
+
+🔹 **Tasks can exist independently or be part of a Story.**  
+
+---
+
+## **📌 3. Issue – A General Work Item**  
+In Jira, **Issue** is a broad term that can refer to **a Story, Task, or Bug**.  
+
+✅ **Example:**  
+- "Implement dark mode" (Story)  
+- "Fix checkout page alignment" (Bug)  
+- "Upgrade the server" (Task)  
+
+🔹 **In simple terms, every work item in Jira is called an Issue.**  
+
+---
+
+## **📌 4. Bug – A Problem or Error in the System**  
+A **Bug** is an issue that needs fixing because something is not working as expected.  
+
+✅ **Example:**  
+- ❌ "Checkout button is not working on mobile."  
+- 🛑 "App crashes when clicking on the profile page."  
+- ⚠️ "Images are loading slowly on the homepage."  
+
+🔹 **Bugs must be prioritized based on severity:**  
+  - 🟥 **Critical** – App crashes, security issues.  
+  - 🟧 **High** – Major function not working.  
+  - 🟨 **Medium** – Minor bugs affecting usability.  
+  - 🟩 **Low** – Cosmetic issues (e.g., UI misalignment).  
+
+---
+
+## **📌 Simple Workflow in Jira: How They Connect**  
+
+1️⃣ **Epic**: "Build a Chat Feature"  
+2️⃣ **Story**: "Enable users to send messages."  
+3️⃣ **Tasks**: "Create UI," "Develop backend," "Add typing indicators."  
+4️⃣ **Bugs**: "Messages sometimes fail to send."  
+
+💡 **Understanding these terms helps teams work efficiently in Agile & Scrum!**  
+
+---
+
+# **Hierarchy of Work Items in Jira & Agile 🚀**  
+
+Understanding the hierarchy of **Epics, Stories, Tasks, Issues, and Bugs** is key to managing projects effectively. Here's a simple breakdown:  
+
+---
+
+## **📌 Jira Work Item Hierarchy (Top to Bottom)**
+```
+1️⃣ Initiative (Optional - Large Business Goal)
+    └── 2️⃣ Epic (Big Feature or Project)
+         ├── 3️⃣ Story (Feature or User Requirement)
+         │    ├── 4️⃣ Task (Work Item to Complete the Story)
+         │    └── 4️⃣ Bug (Issue that Needs Fixing)
+         └── 3️⃣ Sub-task (Smaller Part of a Task)
+```
+
+---
+
+## **📌 Explanation with Example (E-commerce App)**
+| Level | Work Item | Example |
+|--------|-------------|--------------------------------|
+| **1️⃣ Initiative** _(Optional)_ | "Improve Shopping Experience" | A company-wide goal |
+| **2️⃣ Epic** | "Build a Checkout System" | A major feature |
+| **3️⃣ Story** | "As a user, I want to apply discount codes" | A feature request |
+| **4️⃣ Task** | "Develop discount logic in backend" | A specific piece of work |
+| **4️⃣ Bug** | "Discount code not applying correctly" | A problem to fix |
+| **4️⃣ Sub-task** | "Write unit tests for discount logic" | A small work item within a Task |
+
+---
+
+## **📌 Visualizing the Hierarchy**
+```
+📌 Initiative: "Improve Shopping Experience"
+    └── 📌 Epic: "Build a Checkout System"
+        ├── 📌 Story: "As a user, I want to apply discount codes"
+        │    ├── ✅ Task: "Develop discount logic in backend"
+        │    ├── 🛠️ Sub-task: "Write unit tests for discount logic"
+        │    └── 🐞 Bug: "Discount code not applying correctly"
+        └── 📌 Story: "As a user, I want to pay with PayPal"
+             ├── ✅ Task: "Integrate PayPal API"
+             └── 🐞 Bug: "Payment fails for some users"
+```
+
+---
+
+## **📌 Simple Rules to Remember**
+- **Initiative** → A broad company goal (optional in Jira).  
+- **Epic** → A big feature or project that spans multiple sprints.  
+- **Story** → A specific feature request from a user.  
+- **Task** → A piece of work that contributes to completing a Story.  
+- **Bug** → A problem that needs fixing in the system.  
+- **Sub-task** → A smaller work item within a Task.  
+
+💡 **Epics contain Stories, Stories contain Tasks, and Bugs/Tasks may have Sub-tasks.**  
+
+![alt text](./assets/epics.png)
+
+
+---
+
