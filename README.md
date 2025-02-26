@@ -494,3 +494,52 @@ Understanding the hierarchy of **Epics, Stories, Tasks, Issues, and Bugs** is ke
 
 ---
 
+# **📌 Backlog vs. Sprint – Simple Explanation 🚀**  
+
+## **1️⃣ What is a Backlog? (To-Do List for Future Work)**
+- The **Backlog** is a list of all tasks, stories, and bugs that need to be done in the future.  
+- It is **not assigned to any specific time frame** yet.  
+- The team picks tasks from the Backlog for upcoming **Sprints**.  
+
+✅ **Example:**  
+Imagine you are developing a social media app. Your **Backlog** may have:  
+- 📌 "Add dark mode" (Story)  
+- 📌 "Fix login issue" (Bug)  
+- 📌 "Improve profile page design" (Task)  
+
+---
+
+## **2️⃣ What is a Sprint? (Work Done in a Fixed Time)**  
+- A **Sprint** is a short time period (usually **1-4 weeks**) where the team works on selected tasks from the **Backlog**.  
+- Once a Sprint starts, the tasks inside it **must be completed before the Sprint ends**.  
+- Sprints help teams **stay focused** and deliver small, working features regularly.  
+
+✅ **Example:**  
+Sprint **(Feb 26 - Mar 10)** 🏃‍♂️  
+✔️ "Fix login issue" (Bug)  
+✔️ "Improve profile page design" (Task)  
+
+---
+
+## **📌 Key Differences**
+| Feature | **Backlog** | **Sprint** |
+|----------|------------|------------|
+| **What is it?** | A list of all upcoming tasks | A set of tasks planned for a short time (1-4 weeks) |
+| **Timeframe?** | No fixed time | Fixed duration (1-4 weeks) |
+| **Can tasks change?** | Yes, new items can be added | No, once Sprint starts, changes should be minimal |
+| **Used for?** | Storing and prioritizing work | Completing specific tasks in a short time |
+
+---
+
+## **📌 How Backlog & Sprint Work Together?**
+1️⃣ **Product Owner** adds features, bugs, and improvements to the **Backlog**.  
+2️⃣ During **Sprint Planning**, the team picks tasks from the **Backlog** and moves them into the **Sprint**.  
+3️⃣ Team works on the **Sprint** tasks until they are completed.  
+4️⃣ If some tasks are **not finished**, they move back to the **Backlog** for future Sprints.  
+
+---
+
+💡 **Think of Backlog as a TODO list and Sprint as the tasks you commit to doing this week!** 🚀
+
+---
+
