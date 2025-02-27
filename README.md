@@ -872,3 +872,52 @@ Used for planning, roadmap visualization, and workload distribution.
 
 ---
 
+### **📊 Velocity Reports in Jira**  
+
+A **Velocity Report** in Jira helps Agile teams measure how much work they complete in each sprint. It is mainly used in **Scrum** to track team progress and improve future sprint planning.  
+
+---
+
+## **🚀 What is Velocity in Jira?**  
+- Velocity = **Total story points (or tasks) completed in a sprint**  
+- It helps teams predict **how much work they can complete in future sprints**.  
+- Higher velocity means faster delivery, while low/unstable velocity signals workflow issues.  
+
+---
+
+## **📈 How to Read a Velocity Report?**  
+
+A **Velocity Chart** in Jira consists of:  
+- **X-Axis (Sprints)** → Past sprints where work was completed.  
+- **Y-Axis (Story Points / Tasks)** → Amount of work completed per sprint.  
+- **Two Bars Per Sprint:**  
+  - **Grey Bar (Committed Work)** → Story points estimated at the start of the sprint.  
+  - **Green/Blue Bar (Completed Work)** → Story points actually finished by the end of the sprint.  
+
+🚨 **If the completed work is consistently lower than committed work, the team may be overestimating capacity.**  
+
+---
+
+## **📌 How to Use a Velocity Report?**  
+
+1️⃣ **Go to Your Scrum Project** → Click **Reports**.  
+2️⃣ Select **Velocity Chart**.  
+3️⃣ Adjust the filter (Sprint Range, Team, Board).  
+4️⃣ Analyze past sprints → Identify patterns to improve sprint planning.  
+
+---
+
+## **✅ How to Improve Sprint Velocity?**  
+✔ Estimate tasks better (avoid overcommitment).  
+✔ Remove blockers slowing the team down.  
+✔ Improve backlog grooming for better prioritization.  
+✔ Avoid assigning too many new tasks mid-sprint.  
+
+---
+
+📌 **Velocity Reports are best for:**  
+- **Sprint Planning** → Predict how much work can be taken in future sprints.  
+- **Performance Tracking** → Measure if the team is improving or facing issues.  
+- **Capacity Planning** → Adjust workload based on past performance.  
+
+---
