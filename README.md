@@ -755,3 +755,65 @@ status = Done AND resolved >= startOfWeek(-1) AND resolved <= endOfWeek(-1)
 
 ---
 
+### **📌 Labels in Jira**  
+- **Definition**: Tags or keywords that help organize and categorize issues.  
+- **Use Case**: Helps in filtering and searching similar tasks across multiple projects.  
+- **Example**:  
+  - A bug related to login issues can have labels: `login`, `auth`, `critical`.  
+  - A feature request can have labels: `UI`, `enhancement`, `high-priority`.  
+
+---
+
+### **⭐ Story Points in Jira**  
+- **Definition**: A measure of effort/complexity required to complete a task (used in Agile).  
+- **Use Case**: Helps estimate workload in Sprints, not based on time but effort.  
+- **Example Scale**:  
+  - **1 Point** → Simple UI change  
+  - **3 Points** → Medium complexity, needs backend updates  
+  - **8 Points** → Large feature, multiple dependencies  
+  - **13+ Points** → Very complex, may need splitting into smaller tasks  
+
+📌 **Story points ≠ Hours**, they indicate **relative effort**! 🚀
+
+---
+
+### **📝 Issue Activity vs. Activity Stream in Jira**  
+
+#### **📌 Issue Activity**  
+- **Definition**: Tracks all updates related to a specific issue.  
+- **Where?** Found inside an issue under the "Activity" section.  
+- **Includes**:  
+  - Comments  
+  - Status changes (To Do → In Progress → Done)  
+  - Assignee updates  
+  - Work logs  
+  - Attachments added  
+  - Linked issues  
+
+✅ **Example**: If a bug is assigned to a new developer, its **Issue Activity** will show:  
+*"Assignee changed from John to Alice on Feb 26, 2025."*  
+
+---
+
+#### **📡 Activity Stream**  
+- **Definition**: A real-time feed showing updates across multiple issues, projects, or teams.  
+- **Where?** Found in the **Dashboard** under "Activity Stream."  
+- **Includes**:  
+  - All issue activities (comments, status updates, new issues)  
+  - Project-wide changes  
+  - Sprint progress  
+  - Worklog entries  
+
+✅ **Example**: If three different developers update three separate issues, the **Activity Stream** will show all those changes in one place.
+
+📌 **Key Difference**:  
+| Feature  | Issue Activity  | Activity Stream  |
+|----------|----------------|------------------|
+| **Scope** | Single Issue | Multiple Issues & Projects |
+| **Location** | Inside an issue | Dashboard & Widgets |
+| **Filters** | Specific to one issue | Can be customized to show specific projects, users, etc. |
+
+🚀 **Use Issue Activity for deep issue tracking & Activity Stream for an overview of all project changes!**
+
+---
+
