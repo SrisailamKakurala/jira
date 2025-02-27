@@ -817,3 +817,58 @@ status = Done AND resolved >= startOfWeek(-1) AND resolved <= endOfWeek(-1)
 
 ---
 
+### **📊 Jira Reports & Charts: Types & Uses**  
+
+Jira provides different types of **reports and charts** to help teams track progress, manage sprints, analyze issues, and improve efficiency.  
+
+---
+
+## **📈 Types of Charts in Jira Reports**  
+
+### **1️⃣ Agile Reports & Charts (For Scrum & Kanban)**  
+Used for tracking sprint progress, backlog health, and team efficiency.  
+
+- **📉 Sprint Burndown Chart** → Shows the remaining work in a sprint over time. Helps teams check if they are on track.  
+- **📈 Sprint Burnup Chart** → Shows work completed vs. the total work planned. Useful for tracking scope changes.  
+- **🚀 Velocity Chart** → Measures how much work (story points) a team completes per sprint. Helps in sprint planning.  
+- **🔄 Cumulative Flow Diagram** → Displays the number of issues in different workflow stages (To Do, In Progress, Done). Helps Kanban teams identify bottlenecks.  
+- **🚦 Control Chart** → Tracks the cycle time (how long issues take to complete). Helps analyze team performance.  
+- **📊 Epic Burndown Chart** → Tracks the progress of an **Epic** over time, helping teams break down large features.  
+- **📍 Release Burndown Chart** → Shows the progress toward completing a **release** (version). Helps in **predicting release dates**.  
+
+---
+
+### **2️⃣ Issue Tracking & Performance Reports**  
+Used for monitoring issue resolution, tracking bugs, and managing workloads.  
+
+- **🐞 Created vs. Resolved Issues Chart** → Compares the number of issues created vs. those resolved over time.  
+- **📆 Average Age Chart** → Shows the average age of unresolved issues. Helps identify long-standing issues.  
+- **⚡ Resolution Time Chart** → Displays how long it takes to resolve issues on average. Helps measure efficiency.  
+- **📋 Pie Chart Report** → Breaks down issues based on category, assignee, priority, or status.  
+- **📊 Workload Report** → Shows issue distribution among team members. Helps balance workloads.  
+- **⏳ Time Tracking Report** → Compares **estimated time** vs. **actual time spent** on tasks.  
+
+---
+
+### **3️⃣ Forecasting & Project Management Reports**  
+Used for planning, roadmap visualization, and workload distribution.  
+
+- **🛤 Roadmap Report** → Shows high-level project timelines and planned work.  
+- **📍 Version Report** → Tracks the progress of work assigned to a specific release version.  
+- **⚖ Workload Pie Chart** → Displays how tasks are distributed among team members. Helps prevent overload.  
+- **📆 Time Since Issues Report** → Tracks how long issues have been open, updated, or in a specific status.  
+
+---
+
+## **📌 How to Use Charts in Jira?**  
+1️⃣ **Go to the Project Dashboard** → Click **"Reports"** in the sidebar.  
+2️⃣ **Select a Report Type** (Agile, Issue Tracking, or Forecasting).  
+3️⃣ **Apply Filters** (Sprint, Assignee, Date Range, etc.).  
+4️⃣ **Analyze & Improve** → Use the insights to refine workflows, allocate resources, and enhance productivity.  
+
+📌 **Scrum Teams** → Use **Burndown, Velocity, Sprint Reports**.  
+📌 **Kanban Teams** → Use **Cumulative Flow, Control Charts**.  
+📌 **Project Managers** → Use **Roadmap, Workload, and Time Tracking Reports**.  
+
+---
+
