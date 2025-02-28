@@ -1,4 +1,6 @@
 # Jira 
+# DON'T FORGET TO LEAVE A STAR 🌟
+
 
 ## **[Jira Learning Syllabus](./syllabus.md)**
 
@@ -921,3 +923,235 @@ A **Velocity Chart** in Jira consists of:
 - **Capacity Planning** → Adjust workload based on past performance.  
 
 ---
+
+### **📊 Cycle Time & Deployment Reports in Jira**  
+
+### **🚀 Cycle Time Report**  
+**Cycle Time** measures how long it takes for a task to move from **"In Progress"** to **"Done"** in a workflow. It helps teams track efficiency and identify delays.  
+
+#### **🔹 What is Cycle Time?**  
+- **Formula:**  
+  \[
+  \text{Cycle Time} = \text{Completion Date} - \text{Start Date}
+  \]  
+- Lower cycle time = faster delivery 🚀  
+- Used to find **bottlenecks** in the process.  
+
+#### **📈 How to Generate a Cycle Time Report?**  
+1️⃣ Go to **Reports** in Jira.  
+2️⃣ Select **Control Chart** (Jira’s way of visualizing cycle time).  
+3️⃣ Adjust time range and workflow stages.  
+4️⃣ Identify tasks with **high cycle time** to spot workflow slowdowns.  
+
+#### **📌 How to Reduce Cycle Time?**  
+✔ Optimize handoffs between teams.  
+✔ Automate repetitive tasks (e.g., CI/CD pipelines).  
+✔ Improve backlog prioritization.  
+✔ Reduce Work In Progress (WIP) limits in **Kanban**.  
+
+---
+
+### **🚀 Deployment Reports**  
+**Deployment Reports** track how often code is deployed to production. These reports help DevOps teams measure software delivery speed.  
+
+#### **🔹 What is a Deployment Report?**  
+- Shows **how often** code is shipped (daily, weekly, monthly).  
+- Tracks **failed vs. successful deployments**.  
+- Helps improve **Continuous Deployment (CD) pipelines**.  
+
+#### **📈 How to Track Deployment Reports?**  
+- Jira integrates with **Bitbucket, GitHub, GitLab, and Jenkins** to track deployments.  
+- Use **Jira DevOps Dashboard** → Shows deployment frequency, lead time, and failure rates.  
+- Combine with **Cycle Time Reports** to improve end-to-end delivery.  
+
+#### **📌 Key Metrics in Deployment Reports**  
+1️⃣ **Deployment Frequency** → How often changes are released.  
+2️⃣ **Change Failure Rate** → % of deployments causing incidents.  
+3️⃣ **Mean Time to Recovery (MTTR)** → How fast failures are fixed.  
+
+---
+
+📌 **Why Are These Reports Useful?**  
+- **Cycle Time Reports** → Identify bottlenecks in development.  
+- **Deployment Reports** → Improve release speed & stability.  
+
+---
+
+
+Here are **50 Jira interview questions and answers**, covering **basic, intermediate, and advanced** topics:  
+
+---
+
+### **🔹 Basic Jira Interview Questions**  
+
+**1. What is Jira?**  
+👉 Jira is a project management and issue-tracking tool used for Agile software development.  
+
+**2. What are the key features of Jira?**  
+👉 Issue tracking, workflow customization, reporting, dashboards, and integrations with DevOps tools.  
+
+**3. What are Jira projects?**  
+👉 A Jira project is a collection of issues organized under a specific workflow and team.  
+
+**4. What is an issue in Jira?**  
+👉 An issue is any task, bug, story, or request tracked in Jira.  
+
+**5. What are the different issue types in Jira?**  
+👉 Epic, Story, Task, Sub-task, Bug, and Custom issue types.  
+
+**6. What is an Epic in Jira?**  
+👉 A large user story that is broken down into smaller tasks or stories.  
+
+**7. What is a Story in Jira?**  
+👉 A feature or requirement from a user’s perspective.  
+
+**8. What is a Task in Jira?**  
+👉 A work item that needs to be completed, but it’s not necessarily a new feature.  
+
+**9. What is a Bug in Jira?**  
+👉 A defect or error in the software that needs to be fixed.  
+
+**10. What is a Sub-task in Jira?**  
+👉 A smaller unit of work within a task or story.  
+
+---
+
+### **🔹 Intermediate Jira Interview Questions**  
+
+**11. What is a Sprint in Jira?**  
+👉 A time-boxed period (usually 1-4 weeks) where a team completes a set of tasks.  
+
+**12. What is a Backlog in Jira?**  
+👉 A prioritized list of pending work items for a project.  
+
+**13. What is Sprint Planning?**  
+👉 A meeting where teams select tasks from the backlog to work on during a sprint.  
+
+**14. What is a Sprint Grooming or Backlog Refinement?**  
+👉 The process of reviewing and updating the backlog to ensure clarity and prioritization.  
+
+**15. What is a Jira Board?**  
+👉 A visual representation of work, including **Scrum Boards** (sprint-based) and **Kanban Boards** (continuous flow).  
+
+**16. What is a Kanban Board?**  
+👉 A workflow visualization tool that helps manage work in progress (WIP).  
+
+**17. What is the difference between Scrum and Kanban?**  
+👉 Scrum has time-boxed sprints; Kanban has a continuous flow of tasks with WIP limits.  
+
+**18. What is Jira Query Language (JQL)?**  
+👉 A powerful search language used to filter and find specific issues in Jira.  
+
+**19. Give an example of a simple JQL query.**  
+👉 `project = "MyProject" AND status = "In Progress"`  
+
+**20. How do you track Sprint progress in Jira?**  
+👉 Using **Sprint Burndown Charts** and **Velocity Reports**.  
+
+---
+
+### **🔹 Advanced Jira Interview Questions**  
+
+**21. What are Workflows in Jira?**  
+👉 A sequence of steps an issue follows from creation to completion.  
+
+**22. What are Workflow Transitions?**  
+👉 The movement of an issue between different statuses in a workflow.  
+
+**23. What are Workflow Conditions?**  
+👉 Rules that must be met before an issue can transition to another status.  
+
+**24. What are Workflow Validators?**  
+👉 Checks that ensure required fields or conditions are met before transitioning an issue.  
+
+**25. What are Workflow Post Functions?**  
+👉 Actions that happen automatically after a workflow transition (e.g., sending an email).  
+
+**26. What are Jira Labels?**  
+👉 Tags used to categorize issues and make searching easier.  
+
+**27. What are Story Points in Jira?**  
+👉 A measure of effort required to complete a story, used in Agile estimation.  
+
+**28. What is Velocity in Jira?**  
+👉 The number of story points completed in a sprint, helping teams predict future performance.  
+
+**29. What is a Release or Fix Version in Jira?**  
+👉 A software version where specific issues or features will be included.  
+
+**30. What is a Roadmap in Jira?**  
+👉 A timeline view of planned work and epics.  
+
+---
+
+### **🔹 Jira Administration & Customization Questions**  
+
+**31. What are Jira Custom Fields?**  
+👉 Additional fields created by admins to capture specific information in issues.  
+
+**32. What are Jira Components?**  
+👉 Sub-sections of a project used to categorize issues.  
+
+**33. What are Issue Security Levels?**  
+👉 Controls who can view specific issues in a project.  
+
+**34. How do you create an Automation Rule in Jira?**  
+👉 Use **Jira Automation** to trigger actions based on specific conditions (e.g., auto-assigning issues).  
+
+**35. What are Permissions in Jira?**  
+👉 Rules that define what users can do in a project, set via **Permission Schemes**.  
+
+**36. What is a Jira Group vs. a Jira Role?**  
+👉 **Groups** apply to the entire system; **Roles** are project-specific.  
+
+**37. What are Global Permissions in Jira?**  
+👉 System-wide permissions that apply to all projects (e.g., creating new projects).  
+
+**38. What are Issue Types Schemes in Jira?**  
+👉 A way to define which issue types are available in a project.  
+
+**39. What is the difference between a Dashboard and a Report in Jira?**  
+👉 **Dashboards** are customizable views of project data; **Reports** provide specific insights like burndown charts.  
+
+**40. What are Filters in Jira?**  
+👉 Saved searches that help users quickly access important issues.  
+
+---
+
+### **🔹 Jira Reports & Metrics Questions**  
+
+**41. What is a Sprint Burndown Chart?**  
+👉 A graph that shows remaining work in a sprint over time.  
+
+**42. What is a Sprint Burnup Chart?**  
+👉 A graph that shows completed work in a sprint over time.  
+
+**43. What is a Velocity Report?**  
+👉 A report that tracks how much work a team completes in each sprint.  
+
+**44. What is a Cumulative Flow Diagram?**  
+👉 A chart that visualizes workflow efficiency by showing how tasks move through different statuses.  
+
+**45. What is a Control Chart?**  
+👉 A report that tracks **Cycle Time** and **Lead Time** for issue resolution.  
+
+**46. What is Lead Time vs. Cycle Time?**  
+👉 **Lead Time** = Time from issue creation to completion.  
+👉 **Cycle Time** = Time from when work starts to when it’s done.  
+
+**47. What is Deployment Frequency in Jira?**  
+👉 How often code is released to production, tracked using Jira DevOps integrations.  
+
+**48. What is a Change Failure Rate in DevOps Metrics?**  
+👉 The percentage of deployments that cause failures in production.  
+
+**49. What is Mean Time to Recovery (MTTR)?**  
+👉 The average time taken to recover from a failure in production.  
+
+**50. How do you integrate Jira with CI/CD tools like Jenkins or GitHub Actions?**  
+👉 By using **Jira DevOps integrations** to track builds, deployments, and issue status updates.  
+
+---
+
+### **🚀 Final Thoughts**  
+These **50 Jira interview questions** cover **beginner to advanced** topics, ensuring you're prepared for **Jira admin, Agile, and DevOps-related roles**.  
